@@ -1,4 +1,5 @@
 # Personal Porfilio 
+
 The web-based app I am developing is called the **personal portfolio app**. The portfolio app makes it easier to showcase your personal skills and experiences while also including personal information. When it comes to this app, users can log in and out securely and have the app display personal details, which includes first name and surname, date of birth, background and skills, etc.
 
 # Features
