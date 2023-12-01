@@ -5,7 +5,7 @@ The web-based app I am developing is called the **personal portfolio app**. The 
 # Features
 >**User Account Information:** this gives access to users when trying to see what kind of person you are; it gives information accurately, When starting on this, you can create an account, which will personalize your portfolio
 >
->**Profile Information:** The user-friendly design makes it simple to navigate and ensures it is simple and straightforward when your personal details are displayed.
+>**Profile Information:** The user-friendly design makes it simple to navigate and ensures it is simple and straightforward when your personal details are displayed such as the first and surname, date of birth, and email.
 >
 >**Dashboard:** The app is able to personalise a dashboard with a welcome message for users. As soon as the app has been opened, it will display a message.
 >
