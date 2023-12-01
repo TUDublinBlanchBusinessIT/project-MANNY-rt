@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "Personal Portfolio";
+$dbname = "user_information";
 $port = 3307;
 
 // Create connection
