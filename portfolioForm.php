@@ -1,8 +1,9 @@
 <?php
-$fn = $_POST['fname'];
-$sn = $_POST['sname'];
-$dob = $_POST['dob'];
-$ema = $_POST['email'];
+$fn = $_POST['Fname'];
+$sn = $_POST['Lname'];
+$age = $_POST['Age'];
+$gender = $_POST['Gender'];
+$Email = $_POST['Email'];
 $skills = $_POST['skills'];
 $education = $_POST['education'];
 $experience = $_POST['experience'];
@@ -11,13 +12,12 @@ $phoneNumber = $_POST['phoneNumber'];
 
 include("dbcon.php");
 
-$sql = "INSERT INTO user (firstname, surname, dateofbirth, email, skills, education, experience, phoneNumber, homeAddress)
-VALUES ('$fn', '$sn', '$dob', '$ema', '$skills', '$education', '$experience', '$phoneNumber', '$homeAddress')";
+$sql = "INSERT INTO user_info (Fname, Lname, Age, Gender, Email, skills, education, experience, homeAddress, phoneNumber)
+VALUES ('$fn', '$sn', '$age', '$gender', '$Email', '$skills', '$education', '$experience', '$homeAddress', '$phoneNumber')";
 
-//echo $sql;
 mysqli_query($conn, $sql);
 
 mysqli_close($conn);
 
-echo "user_information inserted"
+echo "user_info inserted";
 ?>
