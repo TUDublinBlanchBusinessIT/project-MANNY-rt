@@ -26,7 +26,8 @@ PRIMARY KEY (idDeg),
 CONSTRAINT StudId FOREIGN KEY (StudID) REFERENCES user_info (idUser)
 );
 
+
 INSERT INTO user_info (Fname, Lname, Age, Gender, Email, `skills`, education, experience, homeAddress, phoneNumber)
-VALUES ('Anthony', 'Dela Cruz', 19, 'MALE', '1@gmail.com', 'Skill1', 'Education1', 'Experience1', 'HomeAddress1', '1234567890');
+VALUES ('Anthony', 'Dela Cruz', 19, 'MALE', '1@gmail.com', 'Skill1', 'Education1', 'Experience1', 'HomeAddress1', '1234567890',);
 
 INSERT INTO course VALUES (863, 'Cybersecurity', '2023-10-13', 1);
